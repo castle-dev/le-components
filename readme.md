@@ -54,12 +54,12 @@ We use the `le-` prefix for all components at Castle, to avoid collisions. Le be
 
 ### Script tag
 
-- Put a script tag similar to this `<script src='https://unpkg.com/le-components@0.0.1/dist/castle.js'></script>` in the head of your index.html
+- Put a script tag similar to this `<script src='https://unpkg.com/le-components@0.0.2/dist/castle.js'></script>` in the head of your index.html
 - Then you can use the element anywhere in your template, JSX, html etc
 
 ### Node Modules
 - Run `npm install le-components --save`
-- Put a script tag similar to this `<script src='node_modules/my-name/dist/castle.js></script>` in the head of your index.html
+- Put a script tag similar to this `<script src='node_modules/le-components/dist/castle.js></script>` in the head of your index.html
 - Then you can use the element anywhere in your template, JSX, html etc
 
 ### In a stencil-starter app
