@@ -4,6 +4,11 @@
 
 Stencil components are just Web Components, so they work in any major framework or with no framework at all.
 
+## Currently Support Components
+
+* le-mirror
+* le-ascii-art
+
 ## Getting Started
 
 To start contributing, clone this repo to a new directory:
