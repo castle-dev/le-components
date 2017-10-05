@@ -27,6 +27,7 @@ declare global {
   namespace JSXElements {
       export interface LeAsciiArtAttributes extends HTMLAttributes {
         
+          type?: any
       }
   }
 }

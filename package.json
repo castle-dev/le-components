@@ -1,7 +1,7 @@
 {
-  "name": "my-name",
+  "name": "le-components",
   "version": "0.0.1",
-  "description": "Stencil Component Starter",
+  "description": "Castle Components Library",
   "main": "dist/collection/index.js",
   "types": "dist/collection/index.d.ts",
   "collection": "dist/collection/collection-manifest.json",
@@ -29,12 +29,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ionic-team/stencil-component-starter.git"
+    "url": "git+https://github.com/castle-dev/le-components.git"
   },
-  "author": "Ionic Team",
+  "author": "Castle Team",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ionic-team/stencil"
+    "url": "https://github.com/castle-dev/le-components"
   },
   "homepage": "https://github.com/ionic-team/stencil",
   "jest": {
