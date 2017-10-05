@@ -1,8 +1,13 @@
 exports.config = {
-  namespace: 'myname',
+  namespace: 'castle',
   generateDistribution: true,
   bundles: [
-    { components: ['my-name'] }
+    {
+      components: [
+        'le-mirror',
+        'le-ascii-art'
+      ]
+    }
   ]
 };
 

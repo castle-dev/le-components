@@ -4,31 +4,56 @@
  * and imports for stencil collections that might be configured in your stencil.config.js file
  */
 
-import { MyName as MyName } from './components/my-name/my-name';
+import { AsciiArt as LeAsciiArt } from './components/le-ascii-art/le-ascii-art';
 
-interface HTMLMyNameElement extends MyName, HTMLElement {
+interface HTMLLeAsciiArtElement extends LeAsciiArt, HTMLElement {
 }
-declare var HTMLMyNameElement: {
-  prototype: HTMLMyNameElement;
-  new (): HTMLMyNameElement;
+declare var HTMLLeAsciiArtElement: {
+  prototype: HTMLLeAsciiArtElement;
+  new (): HTMLLeAsciiArtElement;
 };
 declare global {
   interface HTMLElementTagNameMap {
-      "my-name": HTMLMyNameElement;
+      "le-ascii-art": HTMLLeAsciiArtElement;
   }
   interface ElementTagNameMap {
-      "my-name": HTMLMyNameElement;
+      "le-ascii-art": HTMLLeAsciiArtElement;
   }
   namespace JSX {
       interface IntrinsicElements {
-          "my-name": JSXElements.MyNameAttributes;
+          "le-ascii-art": JSXElements.LeAsciiArtAttributes;
       }
   }
   namespace JSXElements {
-      export interface MyNameAttributes extends HTMLAttributes {
+      export interface LeAsciiArtAttributes extends HTMLAttributes {
         
-          first?: any,
-          last?: any
+      }
+  }
+}
+
+import { Mirror as LeMirror } from './components/le-mirror/le-mirror';
+
+interface HTMLLeMirrorElement extends LeMirror, HTMLElement {
+}
+declare var HTMLLeMirrorElement: {
+  prototype: HTMLLeMirrorElement;
+  new (): HTMLLeMirrorElement;
+};
+declare global {
+  interface HTMLElementTagNameMap {
+      "le-mirror": HTMLLeMirrorElement;
+  }
+  interface ElementTagNameMap {
+      "le-mirror": HTMLLeMirrorElement;
+  }
+  namespace JSX {
+      interface IntrinsicElements {
+          "le-mirror": JSXElements.LeMirrorAttributes;
+      }
+  }
+  namespace JSXElements {
+      export interface LeMirrorAttributes extends HTMLAttributes {
+        
       }
   }
 }
