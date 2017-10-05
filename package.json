@@ -1,7 +1,7 @@
 {
   "name": "le-components",
   "version": "0.0.1",
-  "description": "Castle Components Library",
+  "description": "Castle Component Library",
   "main": "dist/collection/index.js",
   "types": "dist/collection/index.d.ts",
   "collection": "dist/collection/collection-manifest.json",
